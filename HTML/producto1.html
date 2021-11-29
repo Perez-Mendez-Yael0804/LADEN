@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ ICONOS ==============-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Hoja de estilos-->
+    /
+    <!--<link rel="stylesheet" href="./CSS/normalize.css" />-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Laden</title>
+</head>
+
+<body>
+    <!--============ HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__bars">
+                <label for="btn-menu" class="fas fa-bars"></label>
+            </div>
+
+            <a href="#" class="nav__logo"><img src="../IMG/logo-k.png" alt="" /></a>
+
+            <div class="nav__buscar">
+                <input type="text" placeholder="Buscar" />
+                <label for="btn-sch" class="fas fa-search"></label>
+                <label for="#" class="fas fa-shopping-cart nav__shop"></label>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sec-cont">
+            <ul class="sec">
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Categorías </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Ofertas </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Conócenos </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Servicios </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Historial </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+        <div class="cont__menu">
+            <nav>
+                <a href="#">Categorías</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Conocenos</a>
+                <a href="#">Servicio</a>
+                <a href="#">Historial</a>
+            </nav>
+            <label for="btn-menu" class="fas fa-times"></label>
+        </div>
+    </div>
+    <input type="checkbox" id="btn-sch" />
+    <div class="buscar-cont">
+        <label for="#" class="fas fa-search icon__s"></label>
+        <input type="text" class="buscar__in" placeholder="Buscar" />
+        <label for="btn-sch" class="fas fa-times icon__x"></label>
+    </div>
+
+    <section class="site-header">
+        <div class="contenedor">
+            <br><br>
+            <h1>Vestido </h1>
+        </div>
+    </section>
+    <div class="separador"></div>
+    <section class="productos">
+        <div class="contenedor">
+            <div class="dividir">
+                <div class="sesenta">
+                    <div class="imagenG centrarTexto">
+                        <img src="./Productos/imagen1.webp" alt="Producto">
+                    </div>
+                </div>
+                <div class="cuarenta">
+                    <div class="caracteristicas">
+                        <h3><b>ESPECIFICACIONES</b></h3>
+                        <br>
+                        <p>Vestido de cuello notch de manga farol</p>
+                        <div class="id">
+                            <br>
+                            <p>Identificador: 1</p>
+                        </div>
+                        <br>
+                        <div class="validacion">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Color: Agua verde azul</p>
+                    <br>
+                    <p>Talla: M</p>
+                    <br>
+                    <div class="precio">
+                        <p>$209,00</p>
+                    </div>
+                    <br>
+                    <p>Categoria</p>
+                    <div class="categoria">
+                        <p>Vestido</p>
+                    </div>
+                    <div class="cantidad">
+                        <p>
+                            <b>Cantidad: </b>
+                            <select>
+                                <option value="1">1 unidad</option>
+                                <option value="2">2 unidades</option>
+                                <option value="3">3 unidades</option>
+                                <option value="4">4 unidades</option>
+                                <option value="5">5 unidades</option>
+                                <option value="6">6 unidades</option>
+                                <option value="+6">Más de 6 unidades</option>
+                            </select>
+                            (100 disponibles)
+                        </p>
+                        <br>
+                        <div class="comprar">
+                            <a href="Comprar.html">Comprar ahora</a>
+                        </div>
+                        <div class="alCarrito">
+                            <a href="alCarrito.html">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="separador"></div>
+            <div class="masCaracteristicas">
+                <h4>Características del producto</h4>
+                <br><br>
+                <div class="dividir">
+                    <div class="veinte">
+                        <p class="justificaTexto"><b>Descripción:</b></p>
+                    </div>
+                    <div class="ochenta">
+                        <p>
+                            Vestido ajustado, con cuello V, de manga larga tipo Obispo. Ajuste regular.
+                        </p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="dividir">
+                    <div class="veinte">
+                        <p class="justificaTexto">
+                            <b>
+                                Composición:
+                            </b>
+                        </p>
+                    </div>
+                    <div class="ochenta">
+                        <p>
+                            100% poliéster
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador"></div>
+    </div>
+</body>
+
+</html>

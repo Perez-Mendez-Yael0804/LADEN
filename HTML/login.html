@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LADEN|Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+    <header>
+        <nav class="nav__cont">
+            <img src="../IMG/logo-k.png" alt="logo">
+        </nav>
+    </header>
+    <div class="bg-img">
+        <div class="login__container">
+            <form class="formulario" action="../PHP/login.php">
+                <h1>Crea tu Cuenta</h1>
+                <p>¿Ya tienes una cuenta? <a href="sing.html"> Inicia Sesión.</a></p>
+                <p>¿Deseas crear una cuenta empresarial? <a href="login2.html">Haz clic aquí.</a></p>
+        
+                <h4 >Nombre(s)</h4>
+                <input type="text" required placeholder="Nombre(s)" name="Nombre" method="post">
+                <br>
+                <h4>Apellidos</h4>
+                <input type="text" required placeholder="Apellidos" name="Apellido" method="post">
+                <br>
+                <h4>Correo electronico</h4>
+                <input type="text" required placeholder="Correo Electronico" name="Mail" method="post">
+                <br>
+                <h4>Contraseña</h4>
+                <input type="password" required placeholder="Contraseña" name="Pass" method="post">
+                <p>(La contraseña debe contener 8 digitos minimos)</p>
+        
+                <input type="checkbox" required>
+                
+                <p>Acepto los <a href="#">Terminos y Condiciones</a>
+                   y estoy de acuerdo con la <a href="#">Declaración de Privacidad.</a>
+                </p>
+                
+                <div class="enviar">
+                    <button type="submit">Crear Cuenta</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
