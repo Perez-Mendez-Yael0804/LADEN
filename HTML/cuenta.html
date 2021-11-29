@@ -6,43 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LADEN</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../CSS/account.css">
-    <script src="https://kit.fontawesome.com/a076d05399,js"></script>
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/cuenta.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="logo">LADEN</li>
-        
-            <li class="buscar">
-                <input type="search" placeholder="Buscar">
-                <label class="icon">
-                    <span class="fas fa-search"></span>
-                </label>
+     <!--============ HEADER ==============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__bars">
+        <label for="btn-menu" class="fas fa-bars"></label>
+      </div>
 
-            </li>
-            <div class="items">
-                <li><a href="#"><i class="icono-h fas fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="icono-h fas fa-heart"></i></a></li>
-                <li><a href="#"><i class="icono-h fas fa-bell"></i></a></li>
-                <li><a href="#"><i class="icono-h fas fa-user-circle" style="font-size: 23px;"></i></a></li>
-            </div>
+      <a href="#" class="nav__logo"><img src="../IMG/logo-k.png" alt="" /></a>
+
+      <div class="nav__buscar">
+        <input type="text" placeholder="Buscar" />
+        <label for="btn-sch" class="fas fa-search"></label>
+        <label for="#" class="fas fa-shopping-cart nav__shop"></label>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-heart"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-bell"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-user-circle"></i>
+            </a>
+          </li>
         </ul>
+      </div>
     </nav>
-    <section>
-        <ul>
-            <li class="second-bar"><a>Categorías</a></li>
-            <li class="second-bar"><a>Ofertas</a></li>
-            <li class="second-bar"><a>Conocenos</a></li>
-            <li class="second-bar"><a>Servicio</a></li>
-            <li class="second-bar"><a>Historial</a></li>
-        </ul>
-    </section>
+    <div class="sec-cont">
+      <ul class="sec">
+        <li class="sec__item">
+          <a href="#" class="men2__link">Categorías </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Ofertas </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Conócenos </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Servicios </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Historial </a>
+        </li>
+      </ul>
+    </div>
+  </header>
     <section class="seccion-perfil-usuario">
         <div class="perfil-usuario-header">
             <div class="perfil-usuario-portada">
                 <div class="perfil-usuario-avatar">
-                    <img src="../IMG/vestido.png" alt="img-avatar">
+                    <img src="../IMG/lettuce.png" alt="img-avatar">
                     <button type="button" class="boton-avatar">
                         <i class="far fa-image"></i>
                     </button>

@@ -1,0 +1,633 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --blanco: #ffff;
+  --negro: #000000;
+  --gris: #c4c4c4;
+  --gris1: #474a56;
+  --gris2: #d2d7ed;
+  --gris3: #DCD6F7;
+  --azul: #6c79db;
+  /*GENERAL*/
+  --azul1: #f4eeff;
+  --azul2: #dcd6f7;
+  --azul3: #a6b1e1;
+  --azul4: #424874;
+  /*ADMIN*/
+  --verde1: #d4ecdd;
+  --verde2: #345b63;
+  --Verde3: #152d35;
+  --verde4: #112031;
+  /*VENDEDOR*/
+  --rosa1: #ff9898;
+  --rosa2: #cf455c;
+  --rosa3: #971549;
+  --rosa4: #470031;
+  --hue: 174;
+  --sat: 63%;
+  --first-color: hsl(var(--hue), var(--sat), 40%);
+  --first-color-alt: hsl(var(--hue), var(--sat), 36%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Open Sans', sans-serif;
+  --h1-font-size: 1.5rem;
+  --normal-font-size: 15px;
+  --tiny-font-size: .625rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 1;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --h1-font-size: 2.25rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--blanco);
+  color: var(--gris1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--negro);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section__height {
+  height: 100vh;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+
+/*=============== HEADER ===============*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--blanco);
+  z-index: var(--z-fixed);
+  transition: .4s;
+  background-color: var(--gris3);
+}
+
+/*=============== NAV ===============*/
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.nav__bars{
+  float: left;
+  line-height: 70px;
+}
+
+.nav__bars:hover{
+  transform: scale(.9);
+}
+
+.nav__bars label{
+  cursor: pointer;
+  font-size: 25px;
+  display: none;
+}
+
+.nav__logo {
+  width: 15%;
+  text-align: center;
+}
+
+.nav__logo img{
+  height: 50%;
+  width: 60%;
+}
+
+.nav__logo img:hover{
+  transform: scale(.9);
+}
+
+.nav__buscar{
+  width: 50%;
+}
+
+.nav__buscar input{
+  height: 30px;
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  color: #000000;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+
+.nav__link{
+  margin-right: 13px;
+}
+
+.nav__item:last-child{
+  font-size: 16.5px;
+}
+
+.nav__item:last-child:hover{
+  transform: scale(1.15);
+}
+
+.nav__buscar{
+  text-align: center;
+  align-items: center;
+  border: 1px solid var(--gris3);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.nav__buscar label{
+  color: #222222;
+  font-size: 18px;
+  margin-left: -2.2rem;
+}
+
+.nav__buscar label:hover{
+  transform: scale(1.1);
+}
+
+.nav__buscar .nav__shop{
+  display: none;
+}
+
+.nav__menu{
+  width: 35%;
+}
+
+/*===========Second Bar============*/
+.sec-cont{
+  width: 100%;
+  height: 36px;
+  background-color: #FAEEFF;
+}
+
+.sec{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 35px;
+}
+
+.men2__link{
+  color: var(--negro);
+}
+
+.sec__item:hover{
+  transform: scale(1.1);
+}
+
+.nav__list, 
+.nav__link {
+  display: flex;
+}
+
+.nav__link {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4px;
+  color: var(--gris1);
+  font-weight: 600;
+}
+
+.nav__list {
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+
+.nav__item:first-child{
+  display: none;
+}
+
+.nav__name {
+  font-size: var(--tiny-font-size);
+  /* display: none;*/ /* Minimalist design, hidden labels */
+}
+
+.nav__icon {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/*Active link*/
+.active-link {
+  position: relative;
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.nav__item:hover{
+  transform: scale(1.05);
+}
+
+/* Change background header */
+.scroll-header {
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+/* Remove if you choose, the minimalist design */
+@media screen and (max-width: 950px) {
+  .nav__item{
+    margin-right: 2px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav__name {
+    display: none;
+  }
+
+  .buscar-cont{
+    float: left;
+    justify-content: space-evenly;
+  }
+
+  .buscar__in{
+    width: 100px;
+  }
+
+  #btn-sch:checked ~ .buscar-cont{
+    transform: translateX(-5%);
+  }  
+
+  .buscar-cont{
+    transform: translateY(0%);
+  }
+
+  .buscar-cont label{
+    position: relative;
+    color: var(--negro);
+    cursor: pointer;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .buscar-cont .icon__s{
+    margin-right: 0px;
+    top: 0px;
+    margin-left: 0px;
+  }
+
+  .buscar-cont .icon__x{
+    top: 0px;
+  }
+
+  .nav__menu{
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .nav__list {
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav__menu {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav__item{
+    margin-left: 35px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 7rem 0 2rem;
+  }
+  .nav {
+    height: calc(var(--header-height) + 1.5rem); /* 4.5rem */
+  }
+
+  .nav__item{
+    margin-top: .5rem;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+  .nav__name {
+    font-size: var(--normal-font-size);
+    /* display: block; */ /* Minimalist design, visible labels */
+  }
+
+  .buscar__in{
+    display: none;
+  }
+
+  .buscar-cont hr{
+    display: none;
+  }
+}  
+
+@media screen and (max-width: 767px) {
+  .nav{
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  
+  .nav__bars{
+    width: 33%;
+    margin-left: 20px;
+  }
+  
+  .nav__bars label{
+    display: flex;
+  }
+
+  .nav__link{
+    margin-right: 25px;
+  }
+
+  .nav__logo{
+    width: 100%;
+    float: center;
+    justify-content: space-evenly;
+  }
+
+  .nav__logo img{
+    width: 83px;
+    height: 40px;
+  }
+
+  .nav__menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blanco);
+    box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    display: grid;
+    align-content: center;
+    border-radius: 1.25rem 1.25rem 0 0;
+    transition: .4s;
+    z-index: 3;
+  }
+
+  .nav__buscar{
+    justify-content: space-evenly;
+    display: inline-flex;
+  }
+
+  .nav__buscar input{
+    display: none;
+  }
+  
+  .nav__buscar label{
+    width: 50%;
+    text-align: right;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+
+  .nav__buscar .nav__shop{
+    width: 50%;
+    margin: -40px;
+    display: inline-flex;
+    text-align: right;
+    font-size: 17px;
+  }
+
+  .nav__item:first-child{
+    display: flex;
+    font-size: 16px;
+  }
+
+  .nav__item:nth-child(2){
+    display: none;
+  }
+
+  .sec-cont{
+    display: none;
+  }
+
+  /*Menú Lateral*/
+  #btn-menu{
+    display: none;
+  }
+
+  .container-menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    
+  }
+
+  #btn-menu:checked ~ .container-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .cont__menu{
+    width: 100%;
+    max-width: 250px;
+    background: var(--azul3);
+    height: 100vh;
+    position: relative;
+    transition:  all 500ms ease;
+    margin-left: -12px;
+  }
+  #btn-menu:checked ~ .container-menu .cont__menu{
+		transform: translateX(5%);
+  }  
+
+  .cont__menu nav{
+    transform: translateY(15%);
+  }
+
+  .cont__menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: var(--negro);
+    transition:  all 400ms ease;
+  }
+
+  .cont__menu nav a:hover{
+    background: var(--gris3);
+    transform: scale(1.1);
+  }
+  .cont__menu label{
+    position: relative;
+    top: -240px;
+    left: 220px;
+    color: var(--negro);
+    cursor: pointer;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+
+  .cont__menu label:hover{
+    color: #FAEEFF;
+  }
+/*Fin del menu lateral*/
+
+/*Buscar dezplazar*/
+  #btn-sch{
+    display: none;
+  }
+
+  .buscar-cont{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    top: -48px;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+  }
+
+  #btn-sch:checked ~ .buscar-cont {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .buscar-cont{
+    background: var(--blanco);
+    margin-left: 32px;
+    justify-content: space-evenly;
+  }
+
+  #btn-sch:checked ~ .buscar-cont{
+    transform: translateX(-5%);
+  }  
+
+  .buscar-cont{
+    transform: translateY(0%);
+  }
+
+  .buscar-cont label{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: var(--negro);
+    cursor: pointer;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .buscar__in{
+    margin-top: 20px;
+    background: var(--blanco);
+    height: 30px;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000000;
+    font-size: 18px;
+  }
+
+  .buscar-cont .icon__s{
+    margin-right: 15px;
+    top: 0px;
+    margin-left: 15px;
+  }
+
+  .buscar-cont .icon__x{
+    top: 0px;
+  }
+
+  .buscar-cont hr{
+    margin-top: 10px;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .container{
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
