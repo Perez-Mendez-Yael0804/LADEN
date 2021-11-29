@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--============ ICONOS ==============-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--Hoja de estilos-->
+  /
+  <!--<link rel="stylesheet" href="./CSS/normalize.css" />-->
+  <link rel="stylesheet" href="../CSS/style.css"/>
+  <title>Laden</title>
+</head>
+
+<body>
+  <!--============ HEADER ==============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__bars">
+        <label for="btn-menu" class="fas fa-bars"></label>
+      </div>
+
+      <a href="#" class="nav__logo"><img src="../IMG/logo-k.png" alt="" /></a>
+
+      <div class="nav__buscar">
+        <input type="text" placeholder="Buscar" />
+        <label for="btn-sch" class="fas fa-search"></label>
+        <label for="#" class="fas fa-shopping-cart nav__shop"></label>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-heart"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-bell"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fas fa-user-circle"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="sec-cont">
+      <ul class="sec">
+        <li class="sec__item">
+          <a href="#" class="men2__link">Categorías </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Ofertas </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Conócenos </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Servicios </a>
+        </li>
+
+        <li class="sec__item">
+          <a href="#" class="men2__link">Historial </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <input type="checkbox" id="btn-menu" />
+  <div class="container-menu">
+    <div class="cont__menu">
+      <nav>
+        <a href="#">Categorías</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Conocenos</a>
+        <a href="#">Servicio</a>
+        <a href="#">Historial</a>
+      </nav>
+      <label for="btn-menu" class="fas fa-times"></label>
+    </div>
+  </div>
+  <input type="checkbox" id="btn-sch" />
+  <div class="buscar-cont">
+    <label for="#" class="fas fa-search icon__s"></label>
+    <input type="text" class="buscar__in" placeholder="Buscar" />
+    <label for="btn-sch" class="fas fa-times icon__x"></label>
+  </div>
+
+  <section class="Banner">
+    <div class="video">
+      <video src="../MP4/2971218424.mp4" width="100%" height="auto" autoplay loop></video>
+    </div>
+  </section>
+
+  <div class="separador"></div>
+
+  <main>
+    <div class="contenedor">
+      <h3>Recomendado</h3>
+      <br><br>
+      <div class="cards">
+        <a href="producto1.html">
+          <div class="card">
+            <div class="imagen_card">
+              <div class="centrarTexto">
+                <img src="../IMG/imagen1.webp" alt="Producto">
+              </div>
+            </div>
+
+            <div class="texto_card">
+              <h5>Vestido de cuello notch de manga farol</h5>
+              <div class="id">
+                <p>Identificador: 1</p>
+            </div>
+              <div class="validacion">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>$209</p>
+            </div>
+          </div>
+        </a>
+        <a href="producto2.html">
+          <div class="card">
+            <div class="imagen_card">
+              <div class="centrarTexto">
+                <img src="../IMG/imagen2.webp" alt="Producto">
+              </div>
+            </div>
+
+            <div class="texto_card">
+              <h5>Vestido maxi en chifón</h5>
+              <div class="id">
+                <p>Identificador: 2</p>
+            </div>
+              <div class="validacion">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>$999</p>
+            </div>
+          </div>
+        </a>
+        <a href="producto3.html">
+          <div class="card">
+            <div class="imagen_card">
+              <div class="centrarTexto">
+                <img src="../IMG/imagen3.webp" alt="Producto">
+              </div>
+            </div>
+
+            <div class="texto_card">
+              <h5>Vestido linea A</h5>
+              <div class="id">
+                <p>Identificador: 3</p>
+            </div>
+              <div class="validacion">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>$449</p>
+            </div>
+          </div>
+        </a>
+        <a href="producto4.html">
+          <div class="card">
+            <div class="imagen_card">
+              <div class="centrarTexto">
+                <img src="../IMG/imagen4.webp" alt="Producto">
+              </div>
+            </div>
+
+            <div class="texto_card">
+              <h5>Top de tirantes fruncido trasero con fruncido bajo asimétrico de satén</h5>
+              <div class="id">
+                <p>Identificador: 4</p>
+            </div>
+              <div class="validacion">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>$117</p>
+            </div>
+          </div>
+        </a>
+        <a href="producto5.html">
+          <div class="card">
+            <div class="imagen_card">
+              <div class="centrarTexto">
+                <img src="../IMG/imagen5.webp" alt="Producto">
+              </div>
+            </div>
+
+            <div class="texto_card">
+              <h5>Cazadora con bolsillo, con solapa cuero PU</h5>
+              <div class="id">
+                <p>Identificador: 5</p>
+            </div>
+              <div class="validacion">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>$565</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </main>
+  <div class="separador"></div>
+  </div>
+</body>
+
+</html>
