@@ -1,0 +1,657 @@
+[
+	{
+		"Electrónica": [
+			{
+				"Cámara_y_Fotografía": [
+					{
+						"Marcas": [
+							"Canon",
+							"Sony",
+							"Nikon",
+							"FujiFilm ",
+							"GoPro",
+							"DJI"
+						],
+						"Categorías": [
+							"Digitales Réflex",
+							"Instantáneas",
+							"Seguridad",
+							"Tripiés y Monopiés",
+							"Lentes y Objetivos",
+							"Otros Accesorios"
+						],
+						"Productos": [
+							{
+								"Nombre": "Fujifilm X-T30 Mirrorless Digital Camera w/XF18-55mm Kit - Silver",
+								"Precio": 30939.32,
+								"Categoria": "Digitales Réflex",
+								"Caracteristicas": [
+									{
+										"Marca": "Fujifilm",
+										"Factor_de_Forma": "Sin espejo",
+										"Nivel de habilidad": "Profesional",
+										"Color": "Plata",
+										"Modos_de_disparo": [
+											"Escena",
+											"Retrato"
+										],
+										"Velocidad_de_disparo_continuo": 8.0,
+										"Tipo_de_control_de_exposición": "Automático",
+										"Peso_del_producto": "3.5 Libras",
+										"Tecnología_de_comunicación_inalámbrica": [
+											"Bluetooth",
+											"Wi-Fi"
+										],
+										"Resolución_fija_efectiva": "26.1 MP"
+									}
+								]
+							},
+							{
+								"Nombre": "Nikon D850 Body, 4K Ultra HD, 45.7 Mp",
+								"Precio": 59999.0,
+								"Categoria": "Digitales Réflex",
+								"Caracteristicas": [
+									{
+										"Marca": "Nikon",
+										"Factor_de_Forma": "SLR",
+										"Nivel de habilidad": "Profesional",
+										"Color": "Negro",
+										"Modos_de_disparo": "Panorama",
+										"Velocidad_de_disparo_continuo": 7,
+										"Tipo_de_control_de_exposición": "Automático",
+										"Peso_del_producto": "2.02 Libras",
+										"Nombre_del_modelo": "D850"
+									}
+								]
+							},
+							{
+								"Nombre": "Nikon Z7 Cámara Mirrorless de Lente Intercambiable",
+								"Precio": 47879.24,
+								"Categoria": "Digitales Réflex",
+								"Caracteristicas": [
+									{
+										"Marca": "Nikon",
+										"Factor_de_Forma": "SLR",
+										"Nivel de habilidad": "Profesional",
+										"Color": "Negro",
+										"Velocidad_de_disparo_continuo": 9,
+										"Peso_del_producto": "1.29 Libras",
+										"Tecnología_de_comunicación_inalámbrica": [
+											"Bluetooth",
+											"Wi-Fi"
+										],
+										"Nombre_del_modelo": "Z7"
+									}
+								]
+							},
+							{
+								"Nombre": "Trípode para Movil y Camara - Soporte Universal para Teléfonos Inteligentes",
+								"Precio": 339.0,
+								"Categoria": "Tripiés y Monopiés",
+								"Caracteristicas": [
+									{
+										"Marca": "Salandens",
+										"Material": "Aluminio",
+										"Largo": "55 pulgadas",
+										"Limite_de_peso": "3 kilogramos"
+									}
+								]
+							},
+							{
+								"Nombre": "Selfie Trípode Bluetooth 360° Rotación Extensible",
+								"Precio": 199.99,
+								"Categoria": "Tripiés y Monopiés",
+								"Caracteristicas": [
+									{
+										"Marca": "SEASKY",
+										"Material": "Aluminio",
+										"Limite_Altura": "60 cm",
+										"Peso": "140 gramos"
+									}
+								]
+							}
+						]
+					}
+				],
+				"Instrumentos_musicales": [
+					{
+						"Marcas": [
+							"Yamaha",
+							"Fender",
+							"Marshall",
+							"Shure",
+							"Line G",
+							"Blue microphones",
+							"Casio",
+							"Roland",
+							"Numark",
+							"D'Addarío",
+							"Mackie",
+							"Epiphone"
+						],
+						"Categorías": [
+							"Guitarras",
+							"Teclados",
+							"Instrumentos de Cuerda",
+							"Tambores y percusión",
+							"Grabación",
+							"Bajos",
+							"Instrumentos de Viento",
+							"Micrófonos",
+							"Iluminación y Sonido",
+							"DJ y Karaoke",
+							"IOS",
+							"Amplificadores y Efectos"
+						],
+						"Productos": [
+							{
+								"Nombre": "GUITARRA YOU ROCK GUITAR MOD. YRG-1000",
+								"Precio": 1277.0,
+								"Categoria": "Guitarras",
+								"Caracteristicas": [
+									{
+										"Fabricante": "YOU ROCK GUITAR",
+										"Modelo": "YRG-1000",
+										"Puertos": "USB",
+										"Programas": [
+											"Reason",
+											"Logic",
+											"Garage Band"
+										]
+									}
+								]
+							},
+							{
+								"Nombre": "Yamaha C45 Guitarra Acústica",
+								"Precio": 2699.4,
+								"Categoria": "Guitarras",
+								"Caracteristicas": [
+									{
+										"Marca": "Yamaha",
+										"Material": "Meranti",
+										"Numero_de_cuerdas": 6,
+										"Modelo": "C45"
+									}
+								]
+							},
+							{
+								"Nombre": "Behringer Q1202USB - Mezclador de 12 canales",
+								"Precio": 2699.4,
+								"Categoria": "Grabación",
+								"Caracteristicas": [
+									{
+										"Marca": "Behringer",
+										"Tipo": "Analógico de alto nivel",
+										"Compresores": "Grado estudio",
+										"Preamplificadores_de_micrófono": 4
+									}
+								]
+							},
+							{
+								"Nombre": "Yamaha P45BSPA Key Weighted Action Digital Piano with Sustain Pedal and Power Supply Standard",
+								"Precio": 12400.01,
+								"Categoria": "Teclados",
+								"Caracteristicas": [
+									{
+										"Marca": "Yamaha",
+										"Color": "Negro",
+										"Peso": "11500 gramos",
+										"Modelo": "P-45B",
+										"Numero_de_teclas": 88
+									}
+								]
+							},
+							{
+								"Nombre": "Kit de piano con teclado de 61 teclas con banco para teclado, soporte para teclado, auriculares, pegatinas para notas de piano y lecciones de piano Simply",
+								"Precio": 2322.88,
+								"Categoria": "Teclados",
+								"Caracteristicas": [
+									{
+										"Marca": "RockJam",
+										"Color": "Negro",
+										"Peso": "3.3 kilogramos",
+										"Modelo": "RJ5061",
+										"Numero_de_teclas": 61
+									}
+								]
+							}
+						]
+					}
+				],
+				"Televisión_y_Video": [
+					{
+						"Marcas": [
+							"TCL",
+							"Bose",
+							"Sony",
+							"LG",
+							"Roku",
+							"Hisense",
+							"Xiaomi"
+						],
+						"Categorías": [
+							"Televisiones",
+							"Home Theater",
+							"Dispositivos de Streaming",
+							"Reproductores BLU-RAY & DVD",
+							"Accesorios",
+							"Proyectores",
+							"Barras de Sonido",
+							"Decodificadores"
+						],
+						"Productos": [
+							{
+								"Nombre": "Pantalla Samsung 50' Crystal UHD 4K UN50AU7000FXZX",
+								"Precio": 14178.0,
+								"Categoria": "Televisiones",
+								"Caracteristicas": [
+									{
+										"Marca": "Samsung",
+										"Color": "TITAN GRAY",
+										"Tipo_de_Conector": "Bluetooth, USB, HDMI",
+										"Pantalla": "LED",
+										"Modelo": "UN50AU7000FXZX",
+										"Frecuencia_Actualizacion": 120,
+										"Puertos_HDMI": 3,
+										"Tamaño_Pantalla": "50.0 inches",
+										"Caracteristica_especial": "3D, Smart TV, Ultra High Definition"
+									}
+								]
+							},
+							{
+								"Nombre": "WESTINGHOUSE Television de 58-Pulg. Ultra HD 4K",
+								"Precio": 9499.0,
+								"Categoria": "Televisiones",
+								"Caracteristicas": [
+									{
+										"Marca": "WESTINGHOUSE",
+										"Sistema_Operativo": "Android",
+										"Pantalla": "LED",
+										"Sintonizador": "ATSC",
+										"Tamaño_Pantalla": "58.0 inches",
+										"Caracteristica_especial": "HD Compatible, Ultra High Definition"
+									}
+								]
+							},
+							{
+								"Nombre": "CINEMOOD - Teatro de Cine portátil",
+								"Precio": 9499.0,
+								"Categoria": "Proyectores",
+								"Caracteristicas": [
+									{
+										"Marca": "CINEMOOD",
+										"Color": "Blanco",
+										"Montaje": "Sobremesa",
+										"Controlador": "Aplicación",
+										"Modelo": "CNMD0016WT",
+										"Peso": "227 gramos"
+									}
+								]
+							},
+							{
+								"Nombre": "Barra de sonido Samsung HW-T400/ZX",
+								"Precio": 1973.67,
+								"Categoria": "Barras de Sonido",
+								"Caracteristicas": [
+									{
+										"Marca": "Samsung",
+										"Conector": "Bluetooth, USB",
+										"Dimensiones": "86 x 27 x 43",
+										"Modelo": "HW-T400",
+										"Peso": "2.7 kilogramos"
+									}
+								]
+							},
+							{
+								"Nombre": "GT MEDIA Decodificador de TV de Receptor de satélite Digital V8",
+								"Precio": 1933.99,
+								"Categoria": "Decodificadores",
+								"Caracteristicas": [
+									{
+										"Marca": "GT MEDIA",
+										"Color": "Negro",
+										"Conector": "Wi-Fi, USB, Ethernet, HDMI",
+										"Dimensiones": "20.5 x 8 x 14 cm",
+										"Modelo": "‎V8 UHD",
+										"Puertos": "‎USB",
+										"Peso": "0.75 kilogramos"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"Libros": [
+			{
+				"Editoriales": [
+					"Panini",
+					"Oceano",
+					"VR",
+					"Larousse",
+					"Grupo Planeta",
+					"Penguin"
+				],
+				"Categorías": [
+					"Infantil y Juvenil",
+					"Literatura y ficcion",
+					"Negocios e inversiones",
+					"Arte y fotografía",
+					"Religión y espiritualidad",
+					"Profesional y técnico",
+					"Educación",
+					"Salud y fitness",
+					"Política",
+					"Comics"
+				],
+				"Productos": [
+					{
+						"Nombre": "Tolkien Boxed Set Tapa flexible – Illustrated",
+						"Precio": 1203.73,
+						"Categoria": "Ficción",
+						"Caracteristicas": [
+							{
+								"Editorial": "Thunder Bay Press",
+								"Idioma": "Inglés",
+								"Páginas": 1504,
+								"Publicación": "5 mayo 2020"
+							}
+						]
+					},
+					{
+						"Nombre": "The Hobbit and the Lord of the Rings: Colección de libros Deluxe. El Hobbit y El Señor de los Anillos (Boxset): Deluxe Pocket Boxed Set Encuadernación de vinil",
+						"Precio": 873.16,
+						"Categoria": "Ficción",
+						"Caracteristicas": [
+							{
+								"Editorial": "Mariner Books",
+								"Idioma": "Inglés",
+								"Páginas": 1504,
+								"Publicación": "21 octubre 2014"
+							}
+						]
+					},
+					{
+						"Nombre": "Percy Jackson and the Olympians - Juego de 5 libros en caja (Boxset con póster)",
+						"Precio": 1053.95,
+						"Categoria": "Ficción",
+						"Caracteristicas": [
+							{
+								"Editorial": "Disney-Hyperion",
+								"Idioma": "Inglés",
+								"Páginas": 1840,
+								"Publicación": "3 junio 2014"
+							}
+						]
+					},
+					{
+						"Nombre": "La canción de Aquiles Pasta dura",
+						"Precio": 252.0,
+						"Categoria": "Ficción",
+						"Caracteristicas": [
+							{
+								"Editorial": "Alianza de Novela",
+								"Idioma": "Español",
+								"Páginas": 392,
+								"Publicación": "20 mayo 2021"
+							}
+						]
+					},
+					{
+						"Nombre": "Aristóteles y Dante descubren los secretos del universo Pasta blanda",
+						"Precio": 230.48,
+						"Categoria": "Fantasía",
+						"Caracteristicas": [
+							{
+								"Editorial": "Planeta Mexicana, S.A. de C.V.",
+								"Idioma": "Español",
+								"Páginas": 328,
+								"Publicación": "1 agosto 2019"
+							}
+						]
+					}
+				]
+			}
+		],
+		"Videojuegos": [
+			{
+				"Marca": [
+					"Warner Bros.",
+					"UBISOFT",
+					"RAZER",
+					"PowerA",
+					"VoltEdge",
+					"NVIDIA"
+				],
+				"Productos": [
+					{
+						"Nombre": "Mario Party Superstars - Standard Edition - Nintendo Switch",
+						"Precio": 1199.2,
+						"Caracteristicas": [
+							{
+								"Marca": "Nintendo",
+								"Plataforma": "Nintendo Switch",
+								"Clasificación": "A Todo Público",
+								"Modelo": 45496597887,
+								"Lanzamiento": "29 octubre 2021"
+							}
+						]
+					},
+					{
+						"Nombre": "Nintendo Switch OLED model w/ White Joy-Con - Standard Edition",
+						"Precio": 12053.2,
+						"Caracteristicas": [
+							{
+								"Marca": "Nintendo",
+								"Pantalla": "7 pulgadas",
+								"Soporte": "Ajustable y amplio",
+								"Almacenamiento": "64 GB",
+								"Modelo": "HEGSKAAAA",
+								"Lanzamiento": "8 octubre 2021"
+							}
+						]
+					},
+					{
+						"Nombre": "Animal Crossing: New Horizons - Standard Edition - Nintendo Switch",
+						"Precio": 1099.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Nintendo",
+								"Plataforma": "Nintendo Switch",
+								"Clasificación": "A Todo Público",
+								"Modelo": 45496598341,
+								"Lanzamiento": "20 Marzo 2020"
+							}
+						]
+					},
+					{
+						"Nombre": "Voltedge TX30 + Fallout 76 - Playstation 4 - Bundle Edition",
+						"Precio": 345.0,
+						"Caracteristicas": [
+							{
+								"Marca": "VoltEdge",
+								"Plataforma": "PlayStation4",
+								"Clasificación": "C Adultos +18 Años",
+								"Modelo": 7503026973615,
+								"Lanzamiento": "15 Abril 2021"
+							}
+						]
+					},
+					{
+						"Nombre": "Crash Bandicoot N. Sane Trilogy - PlayStation 4 - Standard Edition",
+						"Precio": 899.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Activision",
+								"Plataforma": "PlayStation4",
+								"Clasificación": "B +12 Años",
+								"Modelo": "CRASH BANDICOOT 2.0 - LATAM PS4",
+								"Lanzamiento": "6 Agosto 2020"
+							}
+						]
+					}
+				]
+			}
+		],
+		"Mascotas": [
+			{
+				"Categorías": [
+					"Perros",
+					"Gatos",
+					"Peces y Acuáticos",
+					"Animales Pequeños",
+					"Aves",
+					"Reptiles y Anfibios"
+				],
+				"Productos": [
+					{
+						"Nombre": "ALEBRIPETS Cama para Perro, Exterior a Prueba de Agua, cómoda, Lavable, Resistente, 100% Mexicana",
+						"Precio": 594.15,
+						"Categoria": "Perros",
+						"Caracteristicas": [
+							{
+								"Marca": "ALEBRIPETS",
+								"Color": "Negro, Rosa, Azul",
+								"Tamaño": "chica - jumbo",
+								"Material": "Poliéster",
+								"Dimensiones": "81 x 69.8 x 13.2",
+								"Peso": "2 kilogramos"
+							}
+						]
+					},
+					{
+						"Nombre": "Nupec croquetas para Perros, Adulto Razas pequeñas, con Omega 3 y 6, presentación de 8 kg.",
+						"Precio": 750.55,
+						"Categoria": "Perros",
+						"Caracteristicas": [
+							{
+								"Marca": "Nupec",
+								"Raza": "Pequeñas",
+								"Sabor": "Carne",
+								"Etapa_Vida": "Adulto",
+								"Peso": "8 kilogramos"
+							}
+						]
+					},
+					{
+						"Nombre": "FILTRO INTERNO AQUAJET MINI 25 L",
+						"Precio": 223.11,
+						"Categoria": "Peces y Acuáticos",
+						"Caracteristicas": [
+							{
+								"Marca": "AquaJet",
+								"Tamaño": "Mini",
+								"Litros": 25,
+								"Modelo": "FL7785",
+								"Dimensiones": "15.5 x 7.5 x 12.5; 236 g"
+							}
+						]
+					},
+					{
+						"Nombre": "CALCIO P/TORTUGAS C/VITAMINA A - 2 PZ",
+						"Precio": 21.85,
+						"Categoria": "Peces y Acuáticos",
+						"Caracteristicas": [
+							{
+								"Marca": "Lomas",
+								"Caracteristicas": "Tamaño adecuado Presentaciones individuales y dobles",
+								"Ventajas": "Fácil de colocar, No ensucia el agua",
+								"Modelo": "FL1115",
+								"Dimensiones": "14 x 9.5 x 13 cm; 90 g"
+							}
+						]
+					},
+					{
+						"Nombre": "Red Kite Colibrís Néctar Liquido, 1 gal",
+						"Precio": 174.0,
+						"Categoria": "Aves",
+						"Caracteristicas": [
+							{
+								"Marca": "Red Kite",
+								"Raza": "Todas las razas y tamaños",
+								"Ingredientes": "Todo natural",
+								"Uso": "Exteriores",
+								"Modelo": "FL9219",
+								"Dimensiones": "9 x 5 x 7 cm; 4 kg"
+							}
+						]
+					}
+				]
+			}
+		],
+		"Bebés": [
+			{
+				"Productos": [
+					{
+						"Nombre": "Carriola Safety 1st Smooth Ride, Sistema de viaje, Color Gris",
+						"Precio": 4619.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Safety 1st",
+								"Material": "Plástico",
+								"Tipo_Arnés": "5 puntos",
+								"Peso_Recomendado": "32 libras",
+								"Modelo": "TR378EEL",
+								"Dimensiones": "50.04 x 44.96 x 80.01 cm; 14.51 kg"
+							}
+						]
+					},
+					{
+						"Nombre": "Philips AVENT Esterilizador de vapor para microondas",
+						"Precio": 629.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Philips Avent",
+								"Capacidad": "200 mL",
+								"Modelo": "SCF281/05",
+								"Dimensiones": "27.94 x 27.94 x 16.51 cm; 4.54 g"
+							}
+						]
+					},
+					{
+						"Nombre": "Pampers Swaddlers - Pañales Etapa 1, 140 Piezas. Para bebés de 4 a 6 Kg.",
+						"Precio": 896.87,
+						"Caracteristicas": [
+							{
+								"Marca": "Pamper",
+								"Piezas": "100 - 140",
+								"Etapas": "1 - 6",
+								"Material": "Sin parabenos, sin látex, sin cloro",
+								"Modelo": "Swaddlers",
+								"Dimensiones": "27.94 x 27.94 x 16.51 cm; 4.54 g"
+							}
+						]
+					},
+					{
+						"Nombre": "Northstates - Puerta de Seguridad, Madera",
+						"Precio": 499.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Nortstates",
+								"Material": "Madera",
+								"Color": "Blanco",
+								"Modelo": 4600,
+								"Dimensiones": "61.20 Ancho: 59.50 Altura: 6.60 Peso: 1.48"
+							}
+						]
+					},
+					{
+						"Nombre": "Tapas De Seguridad Transparente Para Enchufes - 50 unidades - Tapones de Seguridad para Bebes y Niños",
+						"Precio": 159.0,
+						"Caracteristicas": [
+							{
+								"Marca": "Wappa Baby",
+								"Material": "Plastico",
+								"Piezas": "50 - 32",
+								"Color": "Transparente",
+								"Modelo": "B077Y5LHHF",
+								"Dimensiones": "16.5 x 7.2 x 5.7 cm; 140.61 g"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

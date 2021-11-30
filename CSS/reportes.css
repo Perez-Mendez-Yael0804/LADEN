@@ -1,0 +1,39 @@
+.reportes {
+	margin-top: 1rem;
+	display: grid;
+	column-gap: 2rem;
+}
+.reporte {
+	border-radius: 15px;
+	background-color: var(--color-white);
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+}
+.reporte__superior {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+.reporte__imagen {
+	margin-right: 5px;
+}
+.reporte__icono {
+    margin-left: 10px;
+}
+.reporte__texto p{
+    font-style: italic;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 650px) {
+	.reportes {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 1700px) {
+	.reportes {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

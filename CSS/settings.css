@@ -1,0 +1,80 @@
+main .settings {
+	margin-top: 1rem;
+	background-color: var(--color-white);
+	padding: 1rem;
+	border-radius: 15px;
+	width: 100%;
+}
+.settings form {
+	/* padding-top: 1rem; */
+	width: 90%;
+	margin: 0 auto;
+}
+.settings__opcion{
+	margin: 1rem 0;
+}
+.campo input[type="text"],
+.campo input[type="tel"],
+.campo input[type="email"]{
+	width: 100%;
+	background-color: var(--color-background);
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 5px 0;
+	border: 1px solid gray;
+}
+.campo input[type="text"]:focus,
+.campo input[type="tel"]:focus,
+.campo input[type="email"]:focus{
+	border: 2px solid gray;
+}
+.settings__enviar{
+	text-align: center;
+}
+.campo input[type="submit"]{
+	/* background-color: var(--color-primary); */
+	color: var(--color-info-dark);
+	background-color: var(--color-white);
+	border-radius: 10px;
+	padding: 1rem;
+	border: 2px solid gray ;
+	width: 50%;
+}
+.campo input[type="submit"]:hover{
+	background-color: var(--color-primary);
+	border: 2px solid var(--color-primary);
+	color: white;
+	transition: 0.3s;
+}
+.switch {
+	margin: 10px;
+}
+.lbl-switch {
+	display: inline-block;
+	width: 55px;
+	height: 30px;
+	background: #aaa;
+	border-radius: 100px;
+	position: relative;
+	cursor: pointer;
+}
+#btn-switch:checked ~ .lbl-switch {
+	background: #61a0ff;
+}
+.lbl-switch:after {
+	position: absolute;
+	content: '';
+	width: 22px;
+	height: 22px;
+	background: #fff;
+	border-radius: 100px;
+	top: 4px;
+	left: 5px;
+	transition: 0.3s;
+}
+#btn-switch:checked ~ .lbl-switch:after {
+	left: 28px;
+}
+#btn-switch {
+	display: none;
+}
