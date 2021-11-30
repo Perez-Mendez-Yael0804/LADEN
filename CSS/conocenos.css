@@ -1,0 +1,316 @@
+/*===========Conocenos============*/
+
+.Ajolotitorosa{
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    left: -2%;
+    top: 10%;  
+  }
+  
+  .Ajolotito{
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: -2%;
+    top: 118%;  
+  }
+  
+  .Ajolotitor{
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    right: 0%;
+    top: 305%;  
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  
+  .Ajolotitomorado{
+      position: absolute;
+      
+      width: 35%;
+      height: 55%;
+      right: 0%;
+      top: 55%;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+  
+  }
+  
+  .Kisinclarito{
+      position: absolute;
+  width: 295px;
+  height: 199px;
+  left: 42%;
+  top: 19%;
+  
+  font-family: Oleo Script;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 199px;
+  
+  color: #FDD3D5;
+  
+  }
+  
+  .Kisinjuerte{
+      position: absolute;
+  width: 295px;
+  height: 199px;
+  left: 41%;
+  top: 19%;
+  
+  font-family: Oleo Script;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 199px;
+  
+  color: #EE4044;
+  
+  }
+  
+  .Slogan{
+    position: absolute;
+    width: 401px;
+    height: 118px;
+    left: 41%;
+    top: 42%;
+  
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+  
+    color: #000000;
+  }
+  
+  .misi{
+    position: absolute;
+  width: 72px;
+  height: 29px;
+  left: 6.2%;
+  top: 70%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .misid{
+    position: absolute;
+  width: 678px;
+  height: 161px;
+  left: 6.2%;
+  top: 76%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  
+  .visi{
+    position: absolute;
+  width: 67px;
+  height: 29px;
+  left: 6.2%;
+  top: 97%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  
+  
+  .visid{
+    position: absolute;
+  width: 678px;
+  height: 134px;
+  left: 6.2%;
+  top: 103%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  color: #000000;
+  
+  }
+  
+  .Cuenta{
+    position: absolute;
+  width: 120px;
+  height: 29px;
+  left: 20%;
+  top: 118%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .cuentad{
+    position: absolute;
+  width: 1000px;
+  height: 434px;
+  left: 20%;
+  top: 124%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  
+  .op{
+    
+    position: absolute;
+  width: 720px;
+  height: 29px;
+  left: 6.2%;
+  top: 178%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .opd{
+    
+    position: absolute;
+  width: 1200px;
+  height: 634px;
+  left: 6.2%;
+  top: 185%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  
+  .produ{
+    
+    position: absolute;
+  width: 720px;
+  height: 29px;
+  left: 6.2%;
+  top: 259%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .produd{
+    
+    position: absolute;
+  width: 1200px;
+  height: 434px;
+  left: 6.2%;
+  top: 266%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  
+  .dispo{
+    
+    position: absolute;
+  width: 720px;
+  height: 29px;
+  left: 6.2%;
+  top: 290%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .dispod{
+    
+    position: absolute;
+  width: 1200px;
+  height: 334px;
+  left: 6.2%;
+  top: 297%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  
+  .nego{
+    
+    position: absolute;
+  width: 720px;
+  height: 29px;
+  left: 6.2%;
+  top: 318%;
+  
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  }
+  
+  .negod{
+    
+    position: absolute;
+  width: 900px;
+  height: 234px;
+  left: 6.2%;
+  top: 325%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+  }
+  

@@ -13,6 +13,7 @@
   --gris2: #d2d7ed;
   --gris3: #dcd6f7;
   --azul: #6c79db;
+  --rojo: #F20A0A;
   /*GENERAL*/
   --azul1: #f4eeff;
   --azul2: #dcd6f7;
@@ -110,20 +111,21 @@ a {
 }
 /*Encabezados*/
 h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 h5 {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
+
 /*Divisores*/
 .dividir {
   display: flex;
@@ -356,7 +358,6 @@ h5 {
 .scroll-header {
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
-
 /*Tienda*/
 .cards {
   display: grid;
@@ -371,6 +372,7 @@ h5 {
   margin-bottom: 2rem;
   box-shadow: var(--box-shadow);
   background-color: var(--blanco);
+  transition: 0.2s all ease-in;
 }
 .imagen_card {
   border-top-left-radius: 1rem;
@@ -398,10 +400,13 @@ h5 {
   font-size: 0.8rem;
   color: var(--gris1);
 }
+.card:hover{
+  transform: scale(1.05);
+}
 
 /*Producto*/
 .site-header {
-  background-image: url(../img/stained-glass-spiral-circle-pattern-161154.jpeg);
+  background-image: url(../IMG/stained-glass-spiral-circle-pattern-161154.jpeg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -423,7 +428,7 @@ h5 {
 .precio p {
   font-size: 1.6rem;
 }
-.validacion i {
+.validacion {
   color: var(--azul4);
 }
 .categoria {
@@ -445,9 +450,17 @@ h5 {
   padding: .5rem;
   margin: 1rem 0;
   border-radius: 1rem;
+  width: 100%;
 }
 .comprar a{
   color: var(--blanco);
+}
+.comprar a:hover{
+  color: var(--negro);
+}
+.comprar:hover{
+  box-shadow: 2px 3px 4px var(--azul);
+  padding: .5rem;
 }
 .alCarrito{
   text-align: center;
@@ -456,6 +469,106 @@ h5 {
   margin: 1rem 0;
   border-radius: 1rem; 
 }
+.alCarrito:hover{
+  box-shadow: 2px 3px 4px var(--azul);
+  padding: .5rem;
+}
+.alCarrito a:hover{
+  color: var(--negro);
+}
+.caracteristicas a:hover{
+  color: var(--azul);
+}
+
+/*Carrito*/
+.site-header-carrito{
+  background-image: url(../IMG/stained-glass-spiral-circle-pattern-161154.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 15vh;
+  opacity: 70%;
+  padding: 2rem;
+}
+.card_Carrito{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid;
+  border-width: 0.1rem;
+}
+.site-header-carrito h1 {
+  color: var(--blanco);
+}
+.imagenProducto img{
+  width: auto;
+  height: 15rem;
+}
+.textoProducto h3{
+  color: var(--azul3);
+}
+.textoProducto .precio{
+  color: var(--rojo);
+}
+.acciones a{
+  font-size: 0.8rem;
+  color: var(--azul4);
+}
+.acciones a:hover{
+  color: var(--azul);
+}
+.costos{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid;
+  border-width: 0.1rem;
+}
+.costos .pagar{
+  text-align: center;
+  background-color: var(--azul4);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  transition: 0.2s all ease-in;
+}
+.costos .pagar a{
+  color: var(--blanco);
+}
+.costos a:hover{
+  color: var(--azul);
+}
+.cupon input[type="text"]{
+  background-color: rgba(221, 219, 219, 0.562);
+  margin-bottom: 1.3rem;
+  border: none;
+  border-radius: .5rem;
+  padding: .7rem;
+  font-family: var(--body-font);
+  width: 100%;
+}
+.cupon button{
+  background-color: var(--azul4);
+  color: var(--blanco);
+  padding: .7rem;
+  width: 100%;
+  font-family: var(--body-font);
+  border: none;
+  border-radius: .5rem;
+}
+
+/*Deseos*/
+.site-header-deseos{
+  background-image: url(../IMG/pexels-photo-9980612.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 15vh;
+  padding: 2rem;
+  color: var(--blanco);
+}
+
 /* ============== MEDIA QUERIES ============== */
 @media screen and (max-width: 1750px) {
   .cards {

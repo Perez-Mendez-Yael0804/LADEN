@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ ICONOS ==============-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Hoja de estilos-->
+    /
+    <!--<link rel="stylesheet" href="./CSS/normalize.css" />-->
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Laden</title>
+</head>
+
+<body>
+    <!--============ HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__bars">
+                <label for="btn-menu" class="fas fa-bars"></label>
+            </div>
+
+            <a href="../index.html" class="nav__logo"><img src="../IMG/logo-k.png" alt="" /></a>
+
+            <div class="nav__buscar">
+                <input type="text" placeholder="Buscar" />
+                <label for="btn-sch" class="fas fa-search"></label>
+                <label for="#" class="fas fa-shopping-cart nav__shop"></label>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="Carrito.html" class="nav__link">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="Deseos.html" class="nav__link">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="notificaciones.html" class="nav__link">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="cuenta.html" class="nav__link">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sec-cont">
+            <ul class="sec">
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Categorías </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Ofertas </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Conócenos </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Servicios </a>
+                </li>
+
+                <li class="sec__item">
+                    <a href="#" class="men2__link">Historial </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+        <div class="cont__menu">
+            <nav>
+                <a href="#">Categorías</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Conocenos</a>
+                <a href="#">Servicio</a>
+                <a href="#">Historial</a>
+            </nav>
+            <label for="btn-menu" class="fas fa-times"></label>
+        </div>
+    </div>
+    <input type="checkbox" id="btn-sch" />
+    <div class="buscar-cont">
+        <label for="#" class="fas fa-search icon__s"></label>
+        <input type="text" class="buscar__in" placeholder="Buscar" />
+        <label for="btn-sch" class="fas fa-times icon__x"></label>
+    </div>
+
+    <section class="site-header-deseos">
+        <div class="contenedor">
+            <h1>Lista de Deseos </h1>
+        </div>
+    </section>
+    <div class="separador"></div>
+    <section class="productos">
+        <div class="contenedor">
+            <div class="dividir">
+                <div class="setenta">
+                    <div class="card_Carrito">
+                        <div class="dividir">
+                            <div class="treinta">
+                                <div class="imagenProducto centrarTexto">
+                                    <img src="../IMG/imagen3.webp" alt="Producto">
+                                </div>
+                            </div>
+                            <div class="setenta centrarTexto">
+                                <div class="textoProducto">
+                                    <br>
+                                    <h4>Vestido linea A</h4>
+                                    <div class="separador"></div>
+                                    <div class="dividir">
+                                        <div class="veinte centrarTexto">
+                                            <h5 class="precio">Precio</h5>
+                                            <br>
+                                            <p>$449,00</p>
+                                        </div>
+                                        <div class="cuarenta centrarTexto">
+                                            <h5>Valoraciones</h5>
+                                            <br>
+                                            <div class="validacion">
+                                                <b>4.0</b>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="cuarenta">
+                                            <div class="acciones">
+                                                <a href="#">Borrar <i class="far fa-trash-alt"></i></a><br>
+                                                <a href="#">Ver más tarde <i class="far fa-clock"></i></a><br>
+                                                <a href="#">Añadir al carrito <i class="fas fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="treinta">
+                    <div class="costos">
+                        <div class="centrarTexto">
+                            <h2>Carrito</h2>
+                        </div>
+                        <p>Total: </p><br>
+                        <h2>$209,00</h2><br>
+                        <u><a href="MediosPago.html">Ver medios de pago</a></u>
+                        <div class="pagar">
+                            <a href="Pagar.html">Comprar</a>
+                        </div>
+                        <h5>Promociones</h5><br>
+                        <p>(Sin cupones disponibles)</p>
+                        <br>
+                        <div class="cupon">
+                            <div class="dividir">
+                                <div class="setenta">
+                                    <input type="text" name="cupon" id="cupon" placeholder="Ingresa el código de cupón">
+                                </div>
+                                <div class="treinta">
+                                    <button>
+                                        <b>Usar</b>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador"></div>
+    </div>
+</body>
+
+</html>
